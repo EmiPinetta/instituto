@@ -21,7 +21,6 @@ body{
 
 h1{
     background-color: white;
-    margin-bottom: 5%;
 }
 
 main{
@@ -74,14 +73,22 @@ background-color: #04AA6D;
     box-sizing: border-box;
 
 }
-
+p{
+    color: aliceblue;
+}
+h2{
+    color: aqua;
+}
 .txtFoto img{
     padding: 0;
 }
 
 .info{
     color: purple;
-    margin-top: 5%;
+}
+
+.descrip{
+    color: white;
 }
 article{
     background-color: rgb(37, 33, 33);
@@ -90,10 +97,22 @@ footer{
     background-color: red;
     padding: auto;
     width: 100%;
-    position:absolute;
+    position: fixed;
     bottom: 0;
 }
 
 .piePagina{
     text-align: center;
+}
+
+.nv1{
+    width: 85%;
+}
+
+.nv2{
+    width: 85%;
+}
+
+.nv3{
+    width: 85%;
 }
