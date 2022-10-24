@@ -12,27 +12,30 @@
         <h1>Space Omega</h1>
     </header>
     <nav>
-        <a href="home.html">Home</a>
+        <a type="button" class="btn btn-outline-primary" href="home.html">Home</a>
     </nav>
     <main>
+        <br>
         <h2>Iniciar sesión</h2>
         <section>
-            <form action="iniciar-sesión.php">
-                <!--Siempre hay dos elementps en los formularios-->
-                <label for="nombre-usuario">Nombre de usuario</label>
-                <input type="text"
-                name="nombre-usuario">
-                <br>
-                <br>
-                <label for="clave">Clave</label>
-                <input type="password" name="clave" id="clave">
-                <br>
-                <br>
-                <button type="reset">Borrar</button>
-                <button type="submit">Ingresar</button>
+            <form class="form-signin" action="iniciar-sesión.php">
+                    <div class="form-floating mb-3 mt-3">
+                          <input type="text" class="form-control" [class.border-danger]="EmailValid" id="floatingEmail" placeholder="">
+                          <label>Nombre de usuario</label>
+                    </div>
+              <br>
+              <div class="form-floating mb-3 mt-3">
+                    <input type="password" minlength="8" maxlength="16" [class.border-danger]="ContraseniaValid" class="form-control" id="floatingContraseña" placeholder=""> <!---nombre del objeto en forcontrolname-->
+                    <label>Clave</label>
+              </div>
+              
+              <br>
+                  <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button> 
             </form>
-            <a href="recuperar-clave.html">Recuperar Clave de usuario</a>
-            <a href="registrar-usuario.html">Registrar usuario</a>
+            <br>
+            <a class="usuario" href="recuperar-clave.html">Recuperar Clave</a>
+            <br>
+            <a class="usuario" href="registrar-usuario.html">Registrar usuario</a>            
         </section>
     </main>
     <footer>

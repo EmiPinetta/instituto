@@ -116,3 +116,12 @@ footer{
 .nv3{
     width: 85%;
 }
+
+label{
+    color: lightblue;
+}
+
+.usuario{
+    color: aquamarine;
+    text-decoration: none;
+}
