@@ -1,0 +1,76 @@
+
+
+/* styles.css */
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.container-fluid {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para el título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.for {
+
+  display: flex;
+}
+
+/* Estilo para el botón de cerrar sesión */
+.btn-danger {
+  margin-top: 20px;
+  margin-left: auto;
+  display: block;
+  
+}
+
+/* Estilo para los datos */
+.datos {
+  margin-top: 40px;
+  max-width: 400px;
+}
+
+/* Estilo para el título de los datos */
+.datos h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para la lista de datos */
+.datos ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para cada ítem de la lista de datos */
+.datos li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para las etiquetas de los datos */
+.datos label {
+  font-weight: bold;
+}
+
+/* Estilo para los valores de los datos */
+.datos span {
+  margin-left: 10px;
+}
+
+.card {
+  background-color: #f8f9fa; /* Cambia el valor al color deseado */
+}
+
+body {
+  background-color: #f2f2f2; /* Cambia el valor al color deseado */
+}
+.dark-text {
+  color: #333; /* Color de texto oscuro, puedes cambiar el valor según tus preferencias */
+}
